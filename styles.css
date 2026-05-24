@@ -579,7 +579,9 @@ ul{
 /* Header-Content */
 
     .btn-about{
-        display: none;
+        margin-top: 4rem;
+        font-size: 1rem;
+        padding: 1rem;
     }
     .hd-title{
         font-size: 2.2rem;
