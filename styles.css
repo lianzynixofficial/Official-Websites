@@ -557,6 +557,9 @@ ul{
     .logo-text{
         font-size: 1.4rem;
     }
+    .nav-menu li a{
+        font-size: 1rem;
+    }
     .nav-menu li a:hover::after{
         display: none;
     }
