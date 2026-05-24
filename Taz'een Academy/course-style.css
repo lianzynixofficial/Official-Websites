@@ -8,7 +8,7 @@
 body{
     color: hsl(210, 10%, 84%);
     line-height: 1.5;
-    background: url(Image/bgimg2.jpg) center;
+    background: url(Image/bgimg1.jpg) center;
 }
 
 /* Color Variables */
@@ -72,6 +72,7 @@ ul{
     gap: 2rem;
 }
 .nav-menu li a{
+    font-size: 1.2rem;
     border-radius: 5px;
     transition: all 0.3s ease;
     padding: 0.7rem 2rem;
@@ -124,7 +125,7 @@ ul{
     left: 0;
     right: 0;
     bottom: 10;
-    background: url(Image/bgimg5.jpg);
+    background: url(Image/bgimg3.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,7 +283,7 @@ ul{
 .info-section{
     display: grid;
     place-items: center;
-    background: url(Image/bgimg3.jpg);
+    background: url(Image/bgimg2.jpg);
     background-position: center;
     color: var(--light-color);
     height: 100vh;
