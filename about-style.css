@@ -8,6 +8,7 @@
 body{
     color: hsl(210, 10%, 84%);
     line-height: 1.5;
+    overflow-x: hidden;
     background: url(Image/bgimg1.jpg) center;
     background-size: cover;
 }
