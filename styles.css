@@ -115,7 +115,7 @@ ul{
 
 .hd{
     position: relative;
-    height: 90vh;
+    height: 100vh;
     color: var(--dark-color);
     display: flex;
     align-items: center;
