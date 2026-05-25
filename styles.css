@@ -590,6 +590,9 @@ ul{
     .hd-verse{
         font-size: 0.8rem;
     }
+    .scroll-down{
+        bottom:50px;
+    }
 
 /* Main-Content */
 
