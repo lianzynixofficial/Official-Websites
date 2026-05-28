@@ -242,7 +242,7 @@ ul{
     content: '';
     position: absolute;
     height: 4px;
-    bottom: -135px;
+    bottom: -125px;
     left: 50%;
     transform: translateX(-50%);
     width: 80px;
@@ -518,7 +518,7 @@ ul{
     text-align: center;
 }
 .footer-bottom p{
-    color: hsl(0, 0%, 70%);
+    color: var(--gold-color);
     font-size: 1rem;
 }
 .bottom{
@@ -582,13 +582,13 @@ ul{
         padding: 1rem;
     }
     .hd-title{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         letter-spacing: 1px;
         margin: 2rem 0;
     }
     .hd-start,
     .hd-verse{
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
     .scroll-down{
         bottom: 50px;
@@ -600,7 +600,7 @@ ul{
         padding: 1rem;
     }
     .mcon-head h2{
-        font-size: 2.2rem;
+        font-size: 2rem;
         letter-spacing: 1px;
     }
     .mcon-head h2::after{
@@ -638,10 +638,12 @@ ul{
     }
     .info-sect-left-inner h2,
     .info-sect-right-inner h2{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .info-sect-left-inner p,
-    .form-group label{
+    .form-group label,
+    .form-group button,
+    .btn-whatsapp{
         font-size: 1rem;
     }
 
@@ -668,7 +670,7 @@ ul{
         font-size: 1rem;
     }
     .footer-section h1{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .footer-icon{
         justify-content: center;
@@ -676,6 +678,9 @@ ul{
     }
     .footer-bottom{
         text-align: left;
+    }
+    .footer-bottom p,a{
+        font-size: 0.8rem;
     }
     .bottom{
         height: 150px;

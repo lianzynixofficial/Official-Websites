@@ -212,7 +212,7 @@ ul{
     content: '';
     position: absolute;
     height: 4px;
-    bottom: -60px;
+    bottom: -50px;
     left: 21%;
     transform: translateX(-50%);
     width: 100px;
@@ -459,7 +459,7 @@ ul{
     text-align: center;
 }
 .footer-bottom p{
-    color: #888;
+    color: var(--gold-color);
     font-size: 1rem;
 }
 .bottom{
@@ -518,7 +518,7 @@ ul{
 /* Header-Content */
 
     .hd-title{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
 /* Main-Content */
@@ -593,10 +593,12 @@ ul{
     }
     .info-sect-left-inner h2,
     .info-sect-right-inner h2{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .info-sect-left-inner p,
-    .form-group label{
+    .form-group label,
+    .form-group button,
+    .btn-whatsapp{
         font-size: 1rem;
     }
 
@@ -631,6 +633,9 @@ ul{
     }
     .footer-bottom{
         text-align: left;
+    }
+    .footer-bottom p,a{
+        font-size: 0.8rem;
     }
     .bottom{
         height: 150px;
